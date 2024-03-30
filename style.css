@@ -99,7 +99,7 @@ p {
   display: none;
 }
 #hero {
-  background-image: url(hero-1.png);
+  background-image: url("hero-1.png");
   height: 90vh;
   width: 100%;
   background-size: cover;
