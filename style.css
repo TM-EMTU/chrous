@@ -163,6 +163,7 @@ p {
 #Product1 .pro .des {
   text-align: start;
   padding: 10px 0;
+  color: yellow;
 }
 #Product1 .pro .des span {
   color: #606063;
