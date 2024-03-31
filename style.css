@@ -419,12 +419,16 @@ p {
 
   #Product1 {
     padding: 10px;
+    margin-top: 40px;
   }
   #Product1 .pro .des {
     text-align: start;
     padding: 50px 10;
   }
-
+  #Product1 .pro-container {
+    display: flex;
+    margin: 30px;
+  }
   #Product1 .pro .cart {
     overflow: hidden;
     width: 40px;
