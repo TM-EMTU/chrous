@@ -99,7 +99,7 @@ p {
   display: none;
 }
 #hero {
-  background-image: url("hero-1.png");
+  background-image: url(hero-1.png);
   height: 90vh;
   width: 100%;
   background-size: cover;
@@ -163,7 +163,6 @@ p {
 #Product1 .pro .des {
   text-align: start;
   padding: 10px 0;
-  color: yellow;
 }
 #Product1 .pro .des span {
   color: #606063;
@@ -401,7 +400,7 @@ p {
 }
 @media (max-width: 477px) {
   #header {
-    padding: 10px 20px;
+    padding: 20px 20px;
   }
   h1 {
     font-size: 38px;
@@ -414,7 +413,7 @@ p {
   }
   #hero {
     padding: 0 20px;
-    background-position: 55%;
+    background-position: 70%;
   }
 
   #Product1 {
@@ -442,6 +441,9 @@ p {
     position: absolute;
     bottom: 20px;
     right: 10px;
+  }
+  #Product1 .pro:hover {
+    box-shadow: none;
   }
   #Bannar h2 {
     font-size: 30px;
