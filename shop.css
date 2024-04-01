@@ -1,0 +1,448 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "League Spartan", sans-serif;
+}
+h1 {
+  font-size: 50px;
+  line-height: 64px;
+  color: #222;
+}
+h2 {
+  font-size: 46px;
+  line-height: 64px;
+  color: #222;
+}
+h4 {
+  font-size: 20px;
+  color: #222;
+}
+h6 {
+  font-weight: 700px;
+  font-size: 16px;
+}
+p {
+  font-size: 16px;
+  color: #465b52;
+}
+.section-p1 {
+  padding: 50px 80px;
+}
+.section-m1 {
+  margin: 40px 0;
+}
+.body {
+  width: 100%;
+}
+
+.logo {
+  width: 150px;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 80px;
+  background-color: #e3e6f3;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+  z-index: 999;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+#Navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: -300px;
+}
+#Navbar.active {
+  right: 0px;
+}
+#Navbar li {
+  list-style: none;
+  padding: 0 20px;
+  position: relative;
+}
+
+#Navbar li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a1a1a;
+  transition: 0.3s ease;
+}
+
+#Navbar li a:hover,
+#Navbar li a.active {
+  color: #cf5032;
+}
+
+#Navbar li a.active::after,
+#Navbar li a:hover::after {
+  content: "";
+  width: 30%;
+  height: 2px;
+  background-color: #cf5032;
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
+}
+#mobile {
+  display: none;
+  align-items: center;
+}
+#close {
+  display: none;
+}
+#bag{
+  display: none;
+}
+#hero {
+  font-family: sans-serif;
+  margin: 50px 0;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+}
+#hero h1 {
+  color: #000000;
+  text-align: center;
+  padding: 10px;
+}
+#hero h3 {
+  color: #000000;
+  text-align: center;
+  transition: 0.2s ease;
+}
+#hero span a {
+  color: rgba(196, 73, 29, 0.849);
+  text-align: center;
+  transition: 0.2s ease;
+}
+#hero a {
+  text-decoration: none;
+  color: #000000;
+}
+#hero a:hover {
+  color: blue;
+  transition: 0.2s ease-in;
+}
+
+/* Section styles */
+.section-p2 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 25px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.pro-container {
+  margin-top: 0px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.pro {
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease-in-out;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.pro:hover {
+  transform: scale(1.03);
+}
+
+.pro img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.pro .des {
+  padding: 5px;
+  flex-grow: 1;
+}
+
+.pro span {
+  display: block;
+  color: #777;
+  font-size: 15px;
+  margin-bottom: 3px;
+}
+
+.pro h5 {
+  font-size: 20px;
+  margin-bottom: 3px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.pro .star {
+  color: #f39c12;
+  margin-bottom: 3px;
+}
+
+.pro h4 {
+  font-size: 22px;
+  color: #cf5032;
+  margin-bottom: -20px;
+}
+
+.pro a {
+  display: inline-block;
+  background-color: #cf5032;
+  color: #fff;
+  margin: 10px;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+  align-self: flex-end;
+}
+
+.pro a:hover {
+  background-color: #aa3014;
+}
+
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #dbdbdb;
+  }
+  
+  .col {
+    flex: 1;
+    margin-right: 20px;
+    background-color: #dbdbdb;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .col:last-child {
+    margin-right: 0;
+  }
+  
+  .col h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .col p {
+    margin: 5px 0;
+  }
+  
+  .col a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    margin-bottom: 5px;
+    transition: color 0.3s ease;
+  }
+  
+  .col a:hover {
+    color: #007bff;
+  }
+  
+  .icon {
+    font-size: 24px;
+  }
+  
+  .icon a {
+    color: #333;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .icon a:hover {
+    color: #007bff;
+  }
+  
+  .col-pay img {
+    margin: 10px 0 ;
+    max-width: 200px;
+    height: auto;
+  }
+@media (max-width: 799px) {
+  #Navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    height: 100vh;
+    width: 300px;
+    background-color: #e3e6f3;
+    padding: 80px 0 0 10px;
+  }
+  #Navbar li {
+    margin-bottom: 25px;
+  }
+  #mobile {
+    display: flex;
+    align-items: center;
+  }
+  #mobile i {
+    color: #1a1a1a;
+    font-size: 24px;
+    padding-left: 20px;
+  }
+  #close {
+    display: inline;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    color: #cf5032;
+    font-size: 24px;
+  }
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .col {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .pro-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  /* Product card styles */
+  .pro {
+    padding: 5px;
+  }
+
+  .pro .des {
+    padding: 5px;
+  }
+
+  .pro h5 {
+    font-size: 15px;
+  }
+
+  .pro h4 {
+    font-size: 20px;
+  }
+
+  .pro a {
+    padding: 5px 8px;
+    margin-left: 180px;
+  }
+}
+
+@media (max-width: 477px) {
+  #header {
+    padding: 20px 20px;
+  }
+  h1 {
+    font-size: 38px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  .logo {
+    width: 100px;
+  }
+  #hero {
+    padding: 0 20px;
+    background-position: 70%;
+  }
+
+  #Navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    height: 100vh;
+    width: 200px;
+    background-color: #e3e6f3;
+    padding: 80px 0 0 10px;
+  }
+  .pro-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-bottom: 100px;
+  }
+  .section-p2 {
+    padding: 10px;
+  }
+  .pro a {
+    padding: 3px 8px;
+    margin-left: 140px;
+  }
+
+  .pro {
+    padding: 5px;
+    margin-bottom: 20px;
+    transition: transform 0s ease-in-out;
+  }
+  .pro:hover {
+    transform: none;
+  }
+  #hero {
+    margin-top: 10px;
+    width: 100%;
+  }
+  .section-p2 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+  }
+  .col {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .col-pay {
+    order: 4;
+    background-color: #dbdbdb;
+  }
+  .icon {
+    margin-bottom: 10px;
+  }
+}
+
+#pagination{
+  text-align: center;
+}
+#pagination a{
+  text-decoration: none;
+  background-color: #088178;
+  padding: 15px 20px;
+  border-radius: 4.5px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  transition: 0.2s ease;
+}
+#pagination a:hover{
+  background-color: #cf5032;
+}
+#pagination a i{
+  font-size: 16px;
+  font-weight: 600;
+}
