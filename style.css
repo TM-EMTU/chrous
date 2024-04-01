@@ -441,9 +441,11 @@ p {
     text-align: start;
     padding: 50px 10;
   }
-  #Product1 .pro-container {
-    display: flex;
-    margin: 30px;
+  .pro-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-bottom: 40px;
+
   }
   #Product1 .pro .cart {
     overflow: hidden;
@@ -504,5 +506,4 @@ p {
   .icon {
     margin-bottom: 10px;
   }
-
 }
