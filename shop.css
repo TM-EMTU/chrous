@@ -402,6 +402,10 @@ p {
   .pro:hover {
     transform: none;
   }
+    .pro a {
+    font-size: 15px;
+    padding: 10px 15px;
+  }
   #hero {
     margin-top: 10px;
     width: 100%;
