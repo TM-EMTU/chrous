@@ -402,13 +402,17 @@ p {
   .pro:hover {
     transform: none;
   }
-    .pro a {
+  .pro a {
     font-size: 15px;
     padding: 10px 15px;
   }
   #hero {
     margin-top: 10px;
     width: 100%;
+  }
+  .section-p1 {
+    padding: 15px 0;
+    margin-bottom: 30px;
   }
   .section-p2 {
     max-width: 1200px;
@@ -436,10 +440,10 @@ p {
 #pagination a{
   text-decoration: none;
   background-color: #088178;
-  padding: 15px 20px;
+  padding: 10px 15px;
   border-radius: 4.5px;
   color: #fff;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 600;
   transition: 0.2s ease;
 }
