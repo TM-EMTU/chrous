@@ -99,7 +99,7 @@ p {
   display: none;
 }
 #hero {
-  background-image: url(hero-1.png);
+  background-image: url(/IMG/hero-1.png);
   height: 90vh;
   width: 100%;
   background-size: cover;
@@ -197,7 +197,7 @@ p {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url(b2.jpg);
+  background-image: url(IMG/b2.jpg);
   width: 100%;
   height: 40vh;
   background-size: cover;
@@ -384,6 +384,9 @@ p {
     color: #cf5032;
     font-size: 24px;
   }
+  #bag{
+    display: none;
+  }
   #hero {
     height: 90vh;
     padding: 0 80px;
@@ -427,7 +430,7 @@ p {
   }
   #hero {
     padding: 0 20px;
-    background-position: 70%;
+    background-position: 60%;
   }
 
   #Product1 {
@@ -501,4 +504,5 @@ p {
   .icon {
     margin-bottom: 10px;
   }
+
 }
