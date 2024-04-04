@@ -504,5 +504,34 @@ p {
   .icon {
     margin-bottom: 10px;
   }
-
+}
+#about-head {
+  display: flex;
+  align-items: center;
+}
+#about-head img {
+  width: 50%;
+  height: auto;
+}
+#about-head div {
+  padding-left: 40px;
+}
+#about-head div h2 {
+  margin-top: -40%;
+}
+@media (max-width: 477px){
+  #about-head {
+   flex-direction: column;
+   margin: 0 15px 15px;
+  }
+  #about-head img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #about-head div h2 {
+    margin-top: 0%;
+  }
+  #about-head div {
+    padding-left: 0px;
+  }
 }
